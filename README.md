@@ -1,6 +1,6 @@
 ## UIImagePickerViewController 
 
-By default the photo libray is accessible. However explicit access needs granted for use to the camera. This accesss is made possible via the NSCameraUsageDescription key in the Info.plist with an explicit String explaining the reason for camera usage. 
+By default the photo libray is accessible from the simulator or iOS device without needing to add additional access in the Info.plist file. However explicit access needs to be granted for accessing the user's camera. This accesss is made possible via the **NSCameraUsageDescription** key in the Info.plist with an explicit String explaining the reason for camera usage. 
 
 ## Vocabulary
 
